@@ -15,8 +15,8 @@ roles:
   remote_cluster_client: "true"
   ml: "true"
 
-replicas: 3
-minimumMasterNodes: 2
+replicas: 1
+minimumMasterNodes: 1
 
 esMajorVersion: ""
 
@@ -79,8 +79,8 @@ resources:
 initResources:
   {}
   # limits:
-  #   cpu: "25m"
-  #   # memory: "128Mi"
+  #   cpu: "1000m"
+  #   # memory: "2Gi"
   # requests:
   #   cpu: "25m"
   #   memory: "128Mi"
